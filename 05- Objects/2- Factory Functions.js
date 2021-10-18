@@ -1,11 +1,21 @@
 /** Factory Functions
+ ** Definition
+ * function functionName(){
+ *  return {
+ *      key:value
+ *  }
+ *  }
+ ** Name convention : Camel Notation
+ ** initial key : keyName:value (,) keyName:value
+ ** get new object
+ * const obj = functionName(arguments);
+ ** why use factory function or constructor function
  * Circle is an object
  *  but if we need anther circle object like circle2
  *  we will copy and paste
  ** we will duplicate the method
  *
  * that way we use factory function or constructor function
- ** to get new object
  */
 
 const circle = {
@@ -45,7 +55,7 @@ const circle2 = {
  *
  */
 
-function createCircle() {
+function createCircle(radius) {
   return {
     radius: radius,
 
@@ -57,6 +67,7 @@ function createCircle() {
 }
 
 //* Short syntax
+// Factory Function
 function createCircle2(radius) {
   return {
     radius,
