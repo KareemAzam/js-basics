@@ -1,6 +1,6 @@
 /** 1. Object
 // * object are collection of key value pairs
- * Definition
+ * Definition or object Literal syntax
  *  let objName = {key:value}
  * key : can be any 
  * value : can be 
