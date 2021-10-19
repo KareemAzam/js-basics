@@ -7,7 +7,6 @@
  *! error=> circle is not iterable
  */
 
-// Constructor Function
 const circle = {
   radius: 1,
   draw() {
