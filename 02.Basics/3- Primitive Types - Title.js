@@ -1,4 +1,4 @@
-/** Primitive Types :
+/** Primitive Types Or Value Type :
  * 1. String
  * 2. Number
  * 3. Boolean
@@ -6,7 +6,7 @@
  * 5. null
  */
 
-let name = "kareem"; // String Literal
+let name = 'kareem'; // String Literal
 let age = 30; // Number Literal
 let isApproved = true; // Boolean Literal
 let firstName = undefined; // default if no assignment to variable
