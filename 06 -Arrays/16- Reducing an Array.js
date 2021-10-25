@@ -8,13 +8,14 @@ const numbers = [1, -1, 2, 3];
 //sum without reduce
 let sum = 0;
 for (let n of numbers) sum += n;
-console.log(sum);
+// console.log(sum);
 
 // sum with reduce
 // ((previousValue,currentValue) ,initialValue )
 // initialValue : to initialize previousValue
 // if it empty the initialValue = previousValue
 let sum2 = numbers.reduce((accumulator, currentValue) => {
+  console.log(accumulator, currentValue);
   return accumulator + currentValue;
 }, 0);
 
